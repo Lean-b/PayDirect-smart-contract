@@ -1,0 +1,100 @@
+{
+    "contracts": {
+        "/home/lean/Escritorio/peer-to-peer/contracts/Ownable.sol": {
+            "Ownable": {
+                "abi": [],
+                "devdoc": {
+                    "kind": "dev",
+                    "methods": {},
+                    "version": 1
+                },
+                "evm": {
+                    "bytecode": {
+                        "functionDebugData": {},
+                        "generatedSources": [],
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212201d1636840f61ce4ef505bb558052c365533420d0d4ebd7806b0318c429fe222664736f6c63430008130033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SAR AND CALLDATASIZE DUP5 0xF PUSH2 0xCE4E CREATE2 SDIV 0xBB SSTORE DUP1 MSTORE 0xC3 PUSH6 0x533420D0D4EB 0xD7 DUP1 PUSH12 0x318C429FE222664736F6C63 NUMBER STOP ADDMOD SGT STOP CALLER ",
+                        "sourceMap": "66:214:0:-:0;;;;;;;;;;;;;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "functionDebugData": {},
+                        "generatedSources": [],
+                        "immutableReferences": {},
+                        "linkReferences": {},
+                        "object": "6080604052600080fdfea26469706673582212201d1636840f61ce4ef505bb558052c365533420d0d4ebd7806b0318c429fe222664736f6c63430008130033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SAR AND CALLDATASIZE DUP5 0xF PUSH2 0xCE4E CREATE2 SDIV 0xBB SSTORE DUP1 MSTORE 0xC3 PUSH6 0x533420D0D4EB 0xD7 DUP1 PUSH12 0x318C429FE222664736F6C63 NUMBER STOP ADDMOD SGT STOP CALLER ",
+                        "sourceMap": "66:214:0:-:0;;;;;"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "12600",
+                            "executionCost": "66",
+                            "totalCost": "12666"
+                        }
+                    },
+                    "methodIdentifiers": {}
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/lean/Escritorio/peer-to-peer/contracts/Ownable.sol\":\"Ownable\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/lean/Escritorio/peer-to-peer/contracts/Ownable.sol\":{\"keccak256\":\"0x4c5a757dca5f48e338f5c7900e72e05a9e21447f2ad84e170331f9e148fb2310\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://fb7618ef1fa884105a34091e47633563b0ba4f32561d9e4634f749c322ab86ee\",\"dweb:/ipfs/QmSbMhxts3Y7yBnPY9SJqoYns4U9GZP2QX86R29S6mBbRK\"]}},\"version\":1}",
+                "storageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "userdoc": {
+                    "kind": "user",
+                    "methods": {},
+                    "version": 1
+                }
+            }
+        }
+    },
+    "sources": {
+        "/home/lean/Escritorio/peer-to-peer/contracts/Ownable.sol": {
+            "ast": {
+                "absolutePath": "/home/lean/Escritorio/peer-to-peer/contracts/Ownable.sol",
+                "exportedSymbols": {
+                    "Ownable": [
+                        2
+                    ]
+                },
+                "id": 3,
+                "license": "UNLICENSED",
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.8",
+                            ".9"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "39:23:0"
+                    },
+                    {
+                        "abstract": false,
+                        "baseContracts": [],
+                        "canonicalName": "Ownable",
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "fullyImplemented": true,
+                        "id": 2,
+                        "linearizedBaseContracts": [
+                            2
+                        ],
+                        "name": "Ownable",
+                        "nameLocation": "75:7:0",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [],
+                        "scope": 3,
+                        "src": "66:214:0",
+                        "usedErrors": []
+                    }
+                ],
+                "src": "39:241:0"
+            },
+            "id": 0
+        }
+    }
+}
