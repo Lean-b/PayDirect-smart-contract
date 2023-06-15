@@ -7,13 +7,7 @@
 const hre = require("hardhat");
 
 async function main() {
-  const [desployed] = await hre.ethers.getSigners();
-  const PayDirect = hre.ethers.getContractFactory("PayDirect");
-  const desployPayDirect = await hre.ethers.deployContract(PayDirect);
-  await desployPayDirect.waitForDeployment;
-
-
-  console.log("Desploy: %d",desployPayDirect.getAddress);
+ 
   
 }
 
